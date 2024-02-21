@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilføj node</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="rediger">
+    <h1>Tilføj node</h1>
+    <form id="editForm" action="/add" method="post">
+        <label for="skuffe">Skuffe:</label>
+        <input type="number" id="skuffe" name="skuffe" required><br>
+        
+        <label for="journalnr">Nummer:</label>
+        <input type="number" id="journalnr" name="journalnr" required><br>
+
+        <label for="stemmer">Stemmer:</label>
+        <input type="text" id="stemmer" name="stemmer"><br>
+
+        <label for="komponist">Komponist:</label>
+        <input type="text" id="komponist" name="komponist"  required><br>
+
+        <label for="titel">Titel:</label>
+        <input type="text" id="titel" name="titel" required><br><br>
+        
+        <input type="submit" value="Gem" class="knap"></button>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

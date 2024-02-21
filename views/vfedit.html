@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rediger node</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="rediger">
+    <h1>Rediger node</h1>
+    <form id="editForm" action="/edit" method="post">
+        <input type="hidden" id="id" name="id" value="<%= item.id %>">
+        <label for="skuffe">Skuffe:</label>
+        <input type="number" id="skuffe" name="skuffe" value="<%= item.skuffe %>" required><br>
+        
+        <label for="journalnr">Nummer:</label>
+        <input type="number" id="journalnr" name="journalnr" value="<%= item.journalnr %>" required><br>
+
+        <label for="stemmer">Stemmer:</label>
+        <input type="text" id="stemmer" name="stemmer" value="<%= item.stemmer %>"><br>
+
+        <label for="komponist">Komponist:</label>
+        <input type="text" id="komponist" name="komponist" value="<%= item.komponist %>"  required><br>
+
+        <label for="titel">Titel:</label>
+        <input type="text" id="titel" name="titel" value="<%= item.titel %>" required><br><br>
+        
+        <input type="submit" class="knap" value="Gem"></button>
+    </form>
+    </div>
+    </div>
+
+</body>
+</html>

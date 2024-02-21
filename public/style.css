@@ -1,0 +1,110 @@
+body {
+    background-color: lightgrey;
+}
+
+.main {
+    background-color: lightgrey;
+    padding: 0px 10px;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    margin:auto;
+}
+
+.rediger input {
+    display: inline-block;
+    width: 250px;
+}
+
+.rediger label {
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+    margin: 5px;
+}​
+
+.dataTables_wrapper .dataTables_length select {
+    border: 2px solid grey;
+    background-color: whitesmoke;
+}
+
+h1 { font-family: 'Open Sans Condensed', sans-serif; font-size: 44px; color: #333; }
+
+#noder_length {
+    text-align: left;
+    float: left;
+    width: 33%;
+}
+
+#noder_filter {
+    width: 66%;
+    margin-bottom: 5px;
+}
+
+#noder_filter label {
+    float: left;
+    width: 100%;
+}
+
+#noder_filter input {
+    float: left;
+    width: 50%;
+    height: 35px;
+    border: 2px solid grey;
+    background-color: whitesmoke;
+}
+
+#noder {
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid grey;
+    font-size: 18px;
+}
+
+#noder tr {
+    background-color: whitesmoke;
+}
+
+#noder th {
+    background-color: grey;
+}
+
+#noder th, td {
+    text-align: left;
+    padding: 12px;
+}
+
+#noder tr {
+    border-bottom: 2px solid grey;
+}
+
+#noder th:hover:not(.this) {
+    filter:brightness(1.5);
+}
+
+#noder tr:hover {
+    filter: brightness(0.9);
+}
+
+.knap {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.aknap {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    margin: 2px;
+}
+
+.knap:hover, .aknap:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
